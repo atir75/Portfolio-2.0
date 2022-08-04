@@ -5,13 +5,14 @@
     --hue-color: 159;
     --first-color: hsl(266, 32%, 64%);
     --first-color-second: hsl(266, 32%, 64%);
-    --first-color-alt: hsl(266, 32%, 64%);
+    --first-color-alt: hsl(292, 28%, 68%);
     --first-color-lighter: hsl(266, 32%, 64%);
     --title-color: hsl(255, 45%, 18%);
     --text-color-light: hsl(255, 45%, 18%);
     --input-color: hsl(292, 28%, 68%);
     --body-color: hsl(266, 32%, 64%);
     --container-color: #FFF;
+    --color-icons: hsl(250, 26%, 44%);
 
     --body-font: 'Poppins', sans-serif;
 
@@ -195,9 +196,22 @@ img{
 }
 
 .nav_link:hover{
-    color: var(--first-color);
+    color: var(--color-icons); 
 }
 
 .nav_icon{
     font-size: 1.2rem;
+}
+
+.nav_close{
+    position: absolute;
+    right: 1.3rem;
+    bottom: .5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--title-color); 
+}
+
+.nav_close:hover{
+    color: var(--first-color-alt);
 }
