@@ -164,7 +164,7 @@ img{
 }
 
 .nav_toggle:hover{
-    color: var(--first-color);
+    color: var(--color-icons);
 }
 
 @media screen and (max-width: 767px){
@@ -218,3 +218,7 @@ img{
 
 
 /* SHOW MENU */
+
+.show-menu{
+    bottom: 0;
+}

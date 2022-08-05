@@ -10,3 +10,11 @@ if(navToggle){
         navMenu.classList.add('show-menu')
     })
 }
+
+/* menu hidden validate if constant exist */
+
+if(navClose){
+    navClose.addEventListener('click', () =>{
+        navMenu.classList.remove('show-menu');
+    })
+}
