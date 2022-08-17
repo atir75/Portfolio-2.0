@@ -246,5 +246,5 @@ img{
 }
 
 .home_social-icon:hover{
-    color: var(--first-color-alt)
+    color: var(--color-icons);
 }
