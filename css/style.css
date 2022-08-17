@@ -222,3 +222,13 @@ img{
 .show-menu{
     bottom: 0;
 }
+
+/* HOME */
+.home_container{
+    gap: 1 rem;
+}
+
+.home_content{
+    grid-template-columns: .5fr 3fr;
+    padding-top: 3.5rem;
+}
