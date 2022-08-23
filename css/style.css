@@ -415,3 +415,7 @@ img{
     margin-bottom: var(--mb-0-5);
 }
 
+.skills_name{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
