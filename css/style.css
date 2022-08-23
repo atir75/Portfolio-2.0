@@ -419,3 +419,22 @@ img{
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
 }
+
+.skills_bar,
+.skills_percentage{
+    height: 5px;
+    border-radius: .25rem;
+}
+
+.skills_bar{
+    background-color: var(--first-color-alt);
+} 
+
+.skills_percentage{
+    display: block;
+    background-color: var(--color-icons);
+}
+
+.skills_html{
+    width: 90%;
+}
