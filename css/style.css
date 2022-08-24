@@ -465,3 +465,8 @@ img{
 .skills_java{
     width: 10%;
 }
+
+.skills_close .skills_list{
+    height: 0;
+    overflow: hidden;
+}
