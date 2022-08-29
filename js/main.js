@@ -29,3 +29,10 @@ function linkAction(){
 
 }
 navLink.forEach(n => n.addEventListener('click', linkAction)); 
+
+
+
+/* accordion skills */ 
+
+const skillsContent = document.getElementsByClassName('skills_content'),
+        skillsHeader = document.querySelectorAll('.skills_header')
