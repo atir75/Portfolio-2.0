@@ -542,3 +542,11 @@ img{
     background-color: var(--color-icons2);
     transform: translate(6px, -7px);
 }
+
+.qualification [data-content]{
+    display: none;
+}
+
+.qualification_active[data-content]{
+    display: block;
+}
